@@ -1,0 +1,42 @@
+body
+{
+    background-color: bisque;
+}
+#header
+{
+    background-color: lightgray;
+    color: darkblue;
+}
+#showskectch
+{
+    float: right;
+}
+#canvas
+{
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    border-style: black;
+    background-color: gainsboro;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example
+{
+    from {box-shadow: 1px 1px 38px blue;}
+    to {box-shadow: 1px 1px 38px red;}
+}
+#sketchthis
+{
+    color: red;
+}
+#quicktimer
+{
+    float: left;
+}
+#quickscore
+{
+    float: right;
+    right: 50px;
+}
